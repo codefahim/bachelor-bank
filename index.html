@@ -45,21 +45,21 @@
                 <div class="col-md-4 ">
                     <div class="deposit sub-class">
                         <h5>Deposit</h5>
-                        <h2>$00</h2>
+                        <h2>$ <span id="currentDeposit">00</span></h2>
                     </div>
 
                 </div>
                 <div class="col-md-4 ">
                     <div class="withdraw sub-class">
                         <h5>Withdraw</h5>
-                        <h2>$00</h2>
+                        <h2>$ <span id="currentWithdraw">00</span></h2>
                     </div>
 
                 </div>
                 <div class="col-md-4 ">
                     <div class="balance sub-class">
                         <h5>Balance</h5>
-                        <h2>$300</h2>
+                        <h2>$ <span id="currentBalance">300</span> </h2>
                     </div>
 
                 </div>
@@ -72,15 +72,16 @@
                 <div class="d-flex justify-content-between">
 
                     <div class="col-md-6 shadow p-3 mb-5 bg-white rounded">
-                        <h4>Withdraw</h4>
-                        <input type="number" class="form-control" placeholder="$ Amount You want to Withdraw">
-                        <button class="btn btn-success custome-btn-padding mt-4">Withdraw</button>
+                        <h4>Deposit</h4>
+                        <input id="depositAmount" type="number" class="form-control" placeholder="$ Amount You want to Deposit">
+                        <button id="deposit" class="btn btn-success custome-btn-padding mt-4">Deposit</button>
                     </div>
                     <div class="col-md-6 shadow p-3 mb-5 bg-white rounded">
-                        <h4>Deposit</h4>
-                        <input type="number" class="form-control" placeholder="$ Amount You want to Deposit">
-                        <button class="btn btn-success custome-btn-padding mt-4">Deposit</button>
+                        <h4>Withdraw</h4>
+                        <input type="text" id="inputWithdraw" class="form-control" placeholder="$ Amount You want to Withdraw">
+                        <button id="withdraw" class="btn btn-success custome-btn-padding mt-4">Withdraw</button>
                     </div>
+
                 </div>
 
             </div>
