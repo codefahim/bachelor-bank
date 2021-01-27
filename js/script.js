@@ -3,10 +3,10 @@
 
 const loginBtn = document.getElementById("login");
 loginBtn.addEventListener('click', function() {
-    const sectionhide = document.getElementById('loginSection');
-    sectionhide.style.display = 'none';
-    const transectionArea = document.getElementById('transaction');
-    transectionArea.style.display = 'block';
+    const loginSectionHide = document.getElementById('loginSection');
+    loginSectionHide.style.display = 'none';
+    const transactionArea = document.getElementById('transaction');
+    transactionArea.style.display = 'block';
 });
 
 const deposit = document.getElementById('deposit');
